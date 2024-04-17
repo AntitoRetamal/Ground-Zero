@@ -1,0 +1,181 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+    cursor: default;
+}
+
+.section-padding {
+    padding: 70px 0;
+}
+
+.carousel-item {
+    height: 80vh;
+    min-height: 300px;
+}
+
+
+.carousel-caption {
+    bottom: 200px;
+    z-index: 2;
+}
+
+.carousel-caption h5 {
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+
+.carousel-caption p {
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+
+
+}
+
+.carousel-inner ::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+}
+
+.navbar-nav a {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+
+.navbar-dark .navbar-brand {
+    color: aliceblue;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+    color: black;
+
+}
+
+.btn.btn-outline-success {
+    color: rgb(255, 255, 255);
+    /* Color de texto verde */
+    border-color: rgb(255, 255, 255);
+    /* Color del borde verde */
+}
+
+/* Estilo cuando pasas el mouse sobre el botón */
+.btn.btn-outline-success:hover {
+    background-color: rgb(98, 98, 228);
+    color: rgb(255, 255, 255);
+    /* Cambia el color del texto a azul */
+    border-color: rgb(255, 255, 255);
+    /* Cambia el color del borde a azul */
+}
+
+
+
+
+.modal {
+    top: 50%;
+    /* Coloca la parte superior del modal en el centro vertical */
+    left: 50%;
+    /* Coloca la parte izquierda del modal en el centro horizontal */
+    transform: translate(-50%, -50%);
+}
+
+.modal a.navbar-brand {
+    margin-right: auto;
+    /* Esto empuja el texto hacia la izquierda */
+}
+
+*/ #containerPadre {
+    width: 1000px;
+    background: white;
+}
+
+.w-100 {
+    height: 100hv;
+}
+
+.navbar-toggler {
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+}
+
+.card {
+    transition: all 400ms ease;
+}
+
+.card:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+
+}
+
+img {
+    border: 2px solid #ffffff;
+    /* Ancho del borde, estilo y color */
+}
+
+
+.services .card-body {
+    font-size: 50px;
+}
+
+.team .card-body {
+    font-size: 20px;
+}
+
+@media(max-widht: 767) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .carousel-item {
+        height: 70hv;
+    }
+
+    .w-100 {
+        height: 70hv;
+    }
+
+    .carousel-caption {
+        bottom: 125px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 17pxs;
+    }
+
+    .carousel-caption a {
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+
+    .carousel-caption p {
+        width: 100%;
+        line-height: 1.5;
+        font-size: 12px;
+    }
+
+    .about-text {
+        padding-top: 50px;
+    }
+
+    .section-padding {
+        padding: 50px 0;
+    }
+}
